@@ -94,7 +94,7 @@ img {
   color: #2e2f42;
   padding: 24px 0;
   display: block;
-  transition: all ease-in 200ms;
+  transition: all ease-in 250ms;
 }
 
 .navigation-list-item-link:hover {
@@ -120,7 +120,7 @@ img {
 .address-list-item-link {
   color: #434455;
   padding: 24px 0;
-  transition: all ease-in 200ms;
+  transition: color ease-in 250ms;
 }
 .studio-link {
   position: relative;
@@ -187,7 +187,7 @@ img {
   min-width: 169px;
   margin: 0 auto;
   display: block;
-  transition: all ease-in 200ms;
+  transition: background-color ease-in 200ms;
 }
 .hero-banner-button:hover {
   background-color: #404bbf;
@@ -337,11 +337,10 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: all ease-in 200ms;
+  transition: background-color ease-in 200ms;
 }
 .icon-social-link:hover {
   background-color: #404bbf;
-  transform: scale(1.2);
 }
 .icon-social {
   fill: #f4f4fd;
@@ -430,5 +429,29 @@ img {
   width: 264px;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+}
+.footer-icons-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 120px;
+}
+.footer-icons {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.footer-icons-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+}
+.footer-icons-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 24px;
 }
 /* Section footer end */
