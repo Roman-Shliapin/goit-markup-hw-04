@@ -240,18 +240,7 @@ img {
   border: 1px solid #8e8f99;
   margin-bottom: 8px;
 }
-.icon-advantages {
-  /* background-color: #f4f4fd;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  height: 112px;
-  border-radius: 4px;
-  border: 1px solid #8e8f99;
-  margin-bottom: 8px;
-  padding-top: 24px; */
-}
+
 .icon {
   text-align: center;
   padding: 24px 100px;
@@ -464,12 +453,19 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
+  margin-bottom: 16px;
 }
 .footer-icons-list {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: row;
-  gap: 24px;
+  gap: 16px;
+}
+.social-list-item a {
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.social-list-item a:hover {
+  background-color: #31d0aa;
 }
 /* Section footer end */
