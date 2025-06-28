@@ -432,8 +432,11 @@ img {
 }
 .footer-icons-container {
   display: flex;
-  align-items: flex-start;
+  align-items: baseline;
   gap: 120px;
+}
+.footer-logo-box {
+  margin-right: 120px;
 }
 .footer-icons {
   display: flex;
