@@ -335,10 +335,8 @@ img {
 .social-list-item {
   width: 40px;
   height: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
+
 .icon-social-link {
   background-color: #4d5ae5;
   border-radius: 50%;
@@ -350,6 +348,9 @@ img {
   transition: background-color ease-in 200ms;
 }
 .icon-social-link:hover {
+  background-color: #404bbf;
+}
+.icon-social-link:focus {
   background-color: #404bbf;
 }
 .icon-social {
