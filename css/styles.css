@@ -466,6 +466,8 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-list-item-footer {
+  background-color: #4d5ae5;
+  border-radius: 50%;
   width: 40px;
   height: 40px;
   display: flex;
