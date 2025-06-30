@@ -286,7 +286,7 @@ img {
   margin: 0 auto;
 }
 .team-box {
-  padding: 32px 0 0;
+  /* padding: 32px 0; */
 }
 
 .team-list-item {
@@ -318,13 +318,19 @@ img {
 }
 .icon-social-box {
 }
+.team-card {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 32px 0;
+}
 .icon-social-box-list {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: row;
   gap: 24px;
-  padding: 32px 0;
+  /* padding: 32px 0; */
 }
 .social-list-item {
   width: 40px;
